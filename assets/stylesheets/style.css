@@ -11,15 +11,17 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-bottom: 0;
 }
 
 .block {
   width: 30%;
-  position: relative;
+  /* position: relative; */
   /* margin-left: 5%; */
   padding-top: 9%;
   margin-left: 5%;
   float: left;
+  margin-bottom: 0;
 }
 
 .vertical {
@@ -33,6 +35,7 @@ body {
   margin-right: 5%;
   font-size: 2.3em;
   font-weight: bold;
+  margin-bottom: 0;
 }
 
 .horizontal {
@@ -40,28 +43,34 @@ body {
   font-style: italic;
   font-size: 2.3em;
   margin-top: 4%;
+  position: sticky;
+  margin-bottom: 0;
 }
 
 .text {
   float: left;
   position: relative;
+  margin-bottom: 0;
 }
 
 .content {
   background: #fffcf7;
-  background: radial-gradient(#fffcf7, #e5e5e5);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: radial-gradient(#fffcf7, #d1d1d1);
+  background-size: auto;
+  clear: both;
+  margin: 0 auto;
 }
 
 .container {
   width: 80%;
   margin: 0 auto;
-
+/* padding: 100px auto; */
+border-left:    8px solid #f8b600;
 }
 
 .container>p {
   float: left;
+
 }
 
 .yellow {
@@ -77,7 +86,7 @@ h1 {
   /* margin-top: 200px; */
   float: left;
   margin-left: 10%;
-  margin-bottom: 5%
+  /* margin-bottom: 5% */
 
 }
 
@@ -88,15 +97,6 @@ h2 {
 section{
   margin: 0;
   /* float: left; */
-}
-
-hr {
-  border:         none;
-    border-left:    8px solid #f8b600;
-    height:         40vh;
-    width:          2px;
-    float: left;
-    margin-right: 10%;
 }
 
 .first {
@@ -115,4 +115,51 @@ hr {
 .second {
   font-weight: 200;
   font-size: 1.8em;
+}
+
+ul {
+  list-style-position: inside;
+  /* margin-right: 5%; */
+}
+
+li {
+  margin: 1px;
+}
+
+ul>li>span {
+  font-size: 1.4em !important;
+  margin-left: 5%;
+}
+
+.list1 {
+  font-style: italic;
+  font-weight: bold;
+  color: #f8b600;
+}
+
+.list2 {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.list3 {
+  font-style: italic;
+  font-weight: 300;
+}
+
+.infos {
+  margin-left: 10%;
+}
+
+.footer {
+  clear: both;
+  margin: 0;
+  background: #23231a;
+}
+
+h3 {
+  font-family: 'Niconne', 'cursive';
+  color: white;
+  text-align: center;
+  font-size: 2.4em;
 }
