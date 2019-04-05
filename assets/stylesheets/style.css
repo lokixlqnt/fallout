@@ -1,0 +1,118 @@
+body {
+  font-family: 'Roboto', 'sans-serif';
+
+}
+
+.header {
+  height: 100vh;
+  width: 100%;
+  background-image: url('../img/Fallout-img.jpg');
+  color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.block {
+  width: 30%;
+  position: relative;
+  /* margin-left: 5%; */
+  padding-top: 9%;
+  margin-left: 5%;
+  float: left;
+}
+
+.vertical {
+  writing-mode: vertical-rl;
+  float: left;
+  position: relative;
+  text-transform: uppercase;
+  transform: rotate(180deg);
+  background-color: #f8b600;
+  padding: 3%;
+  margin-right: 5%;
+  font-size: 2.3em;
+  font-weight: bold;
+}
+
+.horizontal {
+  font-weight: 300;
+  font-style: italic;
+  font-size: 2.3em;
+  margin-top: 4%;
+}
+
+.text {
+  float: left;
+  position: relative;
+}
+
+.content {
+  background: #fffcf7;
+  background: radial-gradient(#fffcf7, #e5e5e5);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+
+}
+
+.container>p {
+  float: left;
+}
+
+.yellow {
+  color:#f8b600;
+  font-weight: 100;
+}
+
+h1 {
+  margin: 0;
+  font-size: 5em;
+  font-weight: 600;
+  position: relative;
+  /* margin-top: 200px; */
+  float: left;
+  margin-left: 10%;
+  margin-bottom: 5%
+
+}
+
+h2 {
+  margin: 0;
+}
+
+section{
+  margin: 0;
+  /* float: left; */
+}
+
+hr {
+  border:         none;
+    border-left:    8px solid #f8b600;
+    height:         40vh;
+    width:          2px;
+    float: left;
+    margin-right: 10%;
+}
+
+.first {
+  font-size: 1.6em;
+}
+
+.boldi{
+  font-style: italic;
+  font-weight: bold;
+}
+
+.boldi:last-child {
+  color: #f8b600;
+}
+
+.second {
+  font-weight: 200;
+  font-size: 1.8em;
+}
